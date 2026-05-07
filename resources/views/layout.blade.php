@@ -13,7 +13,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     </head>
-    <body class="flex flex-col h-screen items-center">
+    <body class="bg-gray-50">
         @include('component.navbar')
 
         @yield("content")
